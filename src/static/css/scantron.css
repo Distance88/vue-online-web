@@ -1,0 +1,104 @@
+.ui.container {
+  padding: 5px;
+}
+
+.my-finsh-btn {
+  padding: 15px 15px 15px 15px;
+  border: 1px #EBEEF5 solid;
+}
+.icon{
+  line-height: 30px;
+}
+.my-timer {
+  float: left;
+}
+
+.my-timer span {
+  line-height: 30px;
+}
+
+.my-stop {
+  float: right;
+}
+
+.my-count-down {
+  padding: 10px 10px;
+  height: 50px;
+  background-color: #fff;
+
+}
+
+.my-question-count {
+  padding: 20px;
+  border: 1px #EBEEF5 solid;
+}
+
+.my-question-count-text {
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.my-question-count-count {
+  font-size: 16px;
+  color: #F06000;
+  ;
+
+}
+
+.my-answer-card-title {
+  font-size: 14px;
+  padding-left: 21px;
+  border-left: solid 3px #f06000;
+  height: 20px;
+  line-height: 22px;
+}
+
+.my-answer-card-desc {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #999;
+}
+
+.my-panel-order {
+  margin: 0 0 0 25px;
+  overflow: hidden;
+}
+
+.my-panel-order a {
+  float: left;
+  cursor: pointer;
+  margin: 0 1px 5px 0;
+  width: 20px;
+  height: 20px;
+  line-height: 19px;
+  border: 1px solid #e6e8ec;
+  border-radius: 2px;
+  outline: none;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #14191e;
+}
+
+.my-panel-order a:hover {
+  background-color: #f06000;
+  color: #ffffff;
+}
+
+.my-answer-footer {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  height: 40px;
+  background-color: #fff;
+}
+
+.my-answer-footer button {
+  cursor: pointer;
+  margin: 0 10px 5px 4px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #e6e8ec;
+  border-radius: 2px;
+  outline: none;
+  text-align: center;
+}

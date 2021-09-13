@@ -1,0 +1,138 @@
+/*--------margin------------*/
+.my-margin-massive {
+    margin-top: 5em !important;
+    margin-bottom: 5em !important;
+}
+
+.my-margin-big {
+    margin-top: 4em !important;
+    margin-bottom: 4em !important;
+}
+
+.my-margin-big {
+    margin-top: 3em !important;
+    margin-bottom: 3em !important;
+}
+
+.my-margin-large {
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+}
+
+.my-margin {
+    margin-top: 1em !important;
+    margin-bottom: 1em !important;
+}
+
+.my-margin-small {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+.my-margin-tiny {
+    margin-top: 0.3em !important;
+    margin-bottom: 0.3em !important;
+}
+
+.my-margin-mini {
+    margin-top: 0.2em !important;
+    margin-bottom: 0.2em !important;
+}
+
+/*--------padding------------*/
+.my-padding-massive {
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+
+.my-padding-big {
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+
+.my-padding-big {
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+
+.my-padding-large {
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.my-padding {
+    padding-top: 1em !important;
+    padding-bottom: 1em !important;
+}
+
+.my-padding-small {
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+.my-padding-tiny {
+    padding-top: 0.3em !important;
+    padding-bottom: 0.3em !important;
+}
+
+.my-padding-mini {
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
+}
+
+
+/*---------字体样式---------*/
+.my-publish-text-size {
+    font-size:15px; line-height:28px; color:#595959;font-family:微软雅黑
+}
+
+.my-text {
+    font-size:15px;
+    line-height:28px; 
+    color:black;font-family:微软雅黑
+}
+
+.my-text-thin {
+    font-weight: 300 !important;
+}
+
+.my-text-spaced {
+    letter-spacing: 1px !important;
+}
+
+.my-text-lined {
+    line-height: 1.8 !important;
+}
+
+.my-inline-block {
+    display: inline-block !important;
+}
+
+.my-top-sentence {
+    margin: auto;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.my-text-screen {
+    width: 10em;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(60, end),
+    blink-caret .3s step-end infinite alternate;
+}
+
+.my-top-sentence p {
+    font-size: 26px;
+    color: #FFFFFF;
+}

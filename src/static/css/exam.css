@@ -1,0 +1,158 @@
+.my-container {
+    width: 100%;
+    height: 100%h;
+    background-color: #f0f2f5;
+  }
+  .my-exam-head {
+    width: 80%;
+    background-color: #fff;
+  }
+  .my-exam-head h2 {
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    opacity: 0.95;
+    border-bottom: #e5e5e5 dashed 1px;
+    color: #4c4c4c;
+  }
+  .my-exam-head .info {
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 5px 0 15px 0;
+    color: #666;
+    margin: 0 30px;
+  }
+  .my-ruleTitle {
+    padding: 15px 0;
+  }
+  .my-secpart {
+    padding: 15px 30px;
+    background: #fff9e9;
+    border: 1px solid #ffeec4;
+    border-radius: 2px;
+    margin-bottom: 15px;
+  }
+  .my-answer{
+    position: fixed;
+    width: 280px;
+  }
+  .my-time-card {
+    margin: 15px 0;
+    height: 100%;
+    background-color: #f9f9f9;
+  }
+  .my-submit {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .my-submit button {
+    width: 200px;
+  }
+  .my-time-meter {
+    color: #999;
+    background: #fff;
+  }
+  .my-timer {
+    padding-left: 15px;
+    line-height: 28px;
+    font-size: 15px;
+  }
+  .my-timer .icon {
+    width: 1.4em !important;
+    height: 1.4em !important;
+  }
+  .my-answer-count {
+    margin: 15px 0;
+    height: 100%;
+    background-color: #f9f9f9;
+  }
+  .my-text-answer-card {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .my-text-answer-card-count {
+    font-size: 17px;
+    color: #f06000;
+  }
+  .my-answer-card-title {
+    font-size: 14px;
+    padding-left: 21px;
+    border-left: solid 3px #f06000;
+    height: 20px;
+    line-height: 22px;
+  }
+  .my-answer-card-desc {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #999;
+  }
+  .my-panel-order {
+    margin: 0 0 0 25px;
+    overflow: hidden;
+  }
+  .my-panel-order a {
+    float: left;
+    cursor: pointer;
+    margin: 0 1px 5px 0;
+    width: 20px;
+    height: 20px;
+    line-height: 19px;
+    border: 1px solid #e6e8ec;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Arial";
+    color: #14191e;
+  }
+  .my-panel-order a:hover {
+    background-color: #f06000;
+    color: #ffffff;
+  }
+  .my-answer-footer {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: 40px;
+    background-color: #fff;
+  }
+  .my-answer-footer button {
+    cursor: pointer;
+    margin: 0 10px 5px 4px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #e6e8ec;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+  }
+  .my-text-question {
+    color: #151515 !important;
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  .my-text-question-oredr {
+    font-size: 17px;
+    padding: 0 15px;
+    color: #f06000;
+  }
+  .my-text-question-style {
+    font-size: 17px;
+    color: #f06000;
+  }
+  .my-question-choice {
+    padding-top: 20px;
+  }
+  .el-radio {
+    padding: 10px 45px;
+  }
+  .my-blank-answer {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+  }
+  .el-collapse-item__content {
+    padding-bottom: 13px !important;
+  }

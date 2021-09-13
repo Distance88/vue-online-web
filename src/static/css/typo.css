@@ -1,0 +1,195 @@
+.typo p {
+  font-size: 15px;
+  line-height: 28px;
+  color: #595959;
+  font-family: 微软雅黑
+}
+
+
+.typo strong,
+.typo b {
+  color: #BF360C;
+}
+
+.typo em,
+.typo i {
+  color: #009688;
+}
+
+.typo big {
+  font-size: 22px;
+  color: #009688;
+  font-weight: bold;
+  vertical-align: middle;
+  border-bottom: 1px solid #eee;
+}
+
+.typo small {
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.typo hr {
+  border-bottom: 0.05em dotted #eee;
+  margin: 10px auto;
+}
+
+.typo p {
+  margin: 15px 5px !important;
+}
+
+.typo table,
+.typo pre,
+.typo dl,
+.typo blockquote,
+.typo q,
+.typo ul,
+.typo ol {
+  margin: 10px 5px;
+}
+
+.typo ul,
+.typo ol {
+  padding-left: 10px;
+}
+
+.typo li {
+  margin: 5px;
+}
+
+.typo li p {
+  margin: 5px 0 !important;
+}
+
+.typo ul ul,
+.typo ul ol,
+.typo ol ul,
+.typo ol ol {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.typo ol ol,
+.typo ul ol {
+  list-style-type: lower-roman;
+}
+
+.typo ul ul ol,
+.typo ul ol ol,
+.typo ol ul ol,
+.typo ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.typo dl {
+  padding: 0;
+}
+
+.typo dl dt {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.typo dl dd {
+  margin: 0 0 10px;
+  padding: 0 10px;
+}
+
+.typo blockquote,
+.typo q {
+  border-left: 3px solid #009688;
+  padding: 0 10px;
+  color: #777;
+  quotes: none;
+}
+
+.typo blockquote::before,
+.typo blockquote::after,
+.typo q::before,
+.typo q::after {
+  content: none;
+}
+
+.typo h1,
+.typo h2,
+.typo h3,
+.typo h4,
+.typo h5,
+.typo h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.typo h1 {
+  font-size: 24px;
+}
+
+.typo h2 {
+  font-size: 22px;
+}
+
+.typo h3 {
+  font-size: 18px;
+}
+
+.typo h4 {
+  font-size: 18px;
+}
+
+.typo h5 {
+  font-size: 16px;
+}
+
+.typo h6 {
+  font-size: 16px;
+  color: #777;
+}
+
+.typo table {
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  font: inherit;
+  border: 0;
+}
+
+.typo tbody {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.typo table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.typo table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+.typo table tr th,
+.typo table tr td {
+  font-size: 16px;
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.typo table tr th {
+  font-weight: bold;
+  background-color: #F0F0F0;
+}
+
+.typo img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
